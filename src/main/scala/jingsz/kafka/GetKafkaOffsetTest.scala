@@ -1,17 +1,11 @@
-package jingsz
+package jingsz.kafka
 
 import java.io.IOException
 
 import kafka.api._
-import kafka.cluster.Broker
-import kafka.common.OffsetAndMetadata
-import kafka.common.OffsetMetadataAndError
-import kafka.common.TopicAndPartition
-import kafka.javaapi.OffsetCommitRequest
-import kafka.javaapi.OffsetCommitResponse
+import kafka.common.{ErrorMapping, TopicAndPartition}
 import kafka.javaapi.OffsetFetchResponse
 import kafka.network.BlockingChannel
-import kafka.common.{ErrorMapping, TopicAndPartition}
 
 
 object OffsetFetchTest {

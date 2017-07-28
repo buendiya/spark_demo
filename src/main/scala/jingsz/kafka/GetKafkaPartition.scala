@@ -1,8 +1,8 @@
-package jingsz
+package jingsz.kafka
 
+import kafka.common.TopicAndPartition
 import kafka.utils.ZkUtils
 import org.I0Itec.zkclient.{ZkClient, ZkConnection}
-import kafka.common.{KafkaException, NoEpochForPartitionException, TopicAndPartition}
 
 
 object GetKafkaPartition {

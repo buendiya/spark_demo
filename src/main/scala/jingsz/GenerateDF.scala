@@ -36,6 +36,7 @@ object GenerateDF {
     // The columns of a row in the result can be accessed by field index
     teenagersDF.map(teenager => "Name: " + teenager(0)).show()
 
+    teenagersDF.filter($"age" > 26)
 
   }
 }

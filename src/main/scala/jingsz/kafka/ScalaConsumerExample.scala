@@ -1,9 +1,8 @@
-package jingsz
+package jingsz.kafka
 
 import java.util.concurrent._
 import java.util.{Collections, Properties}
 
-import kafka.consumer.KafkaStream
 import kafka.utils.Logging
 import org.apache.kafka.clients.consumer.{ConsumerConfig, KafkaConsumer}
 
